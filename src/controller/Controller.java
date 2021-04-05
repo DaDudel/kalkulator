@@ -14,9 +14,11 @@ public class Controller {
 
     @FXML
     public void equals(ActionEvent actionEvent) {
-        op.setA(Double.parseDouble(numbers.getText()));
-        op.calculate();
-        numbers.setText(op.getC().toString());
+        if(op.getC()!=null) {
+            op.setA(Double.parseDouble(numbers.getText()));
+            op.calculate();
+            numbers.setText(op.getC().toString());
+        }
     }
     @FXML
     public void add(ActionEvent actionEvent) {
