@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="221.0">
+         <children>
+            <TextField fx:id="numbers" accessibleText="false" layoutX="35.0" layoutY="14.0" prefHeight="4.0" prefWidth="150.0" />
+            <Button layoutX="43.0" layoutY="45.0" mnemonicParsing="false" onAction="#add" prefHeight="26.0" prefWidth="26.0" text="+" />
+            <Button layoutX="70.0" layoutY="45.0" mnemonicParsing="false" onAction="#minus" prefHeight="26.0" prefWidth="26.0" text="-" />
+            <Button layoutX="97.0" layoutY="45.0" mnemonicParsing="false" onAction="#multiply" prefHeight="26.0" prefWidth="26.0" text="*" />
+            <Button layoutX="123.0" layoutY="45.0" mnemonicParsing="false" onAction="#divide" prefHeight="26.0" prefWidth="26.0" text="/" />
+            <Button layoutX="149.0" layoutY="45.0" mnemonicParsing="false" onAction="#equals" prefHeight="26.0" prefWidth="26.0" text="=" />
+            <Button layoutX="70.0" layoutY="71.0" mnemonicParsing="false" onAction="#set7" prefHeight="26.0" prefWidth="26.0" text="7" />
+            <Button layoutX="97.0" layoutY="71.0" mnemonicParsing="false" onAction="#set8" prefHeight="26.0" prefWidth="26.0" text="8" />
+            <Button layoutX="123.0" layoutY="71.0" mnemonicParsing="false" onAction="#set9" prefHeight="26.0" prefWidth="26.0" text="9" />
+            <Button layoutX="70.0" layoutY="97.0" mnemonicParsing="false" onAction="#set4" prefHeight="26.0" prefWidth="26.0" text="4" />
+            <Button layoutX="97.0" layoutY="97.0" mnemonicParsing="false" onAction="#set5" prefHeight="26.0" prefWidth="26.0" text="5" />
+            <Button layoutX="123.0" layoutY="97.0" mnemonicParsing="false" onAction="#set6" prefHeight="26.0" prefWidth="26.0" text="6" />
+            <Button layoutX="70.0" layoutY="123.0" mnemonicParsing="false" onAction="#set1" prefHeight="26.0" prefWidth="26.0" text="1" />
+            <Button layoutX="97.0" layoutY="123.0" mnemonicParsing="false" onAction="#set2" prefHeight="26.0" prefWidth="26.0" text="2" />
+            <Button layoutX="123.0" layoutY="123.0" mnemonicParsing="false" onAction="#set3" prefHeight="26.0" prefWidth="26.0" text="3" />
+            <Button layoutX="97.0" layoutY="149.0" mnemonicParsing="false" onAction="#set0" prefHeight="26.0" prefWidth="26.0" text="0" />
+            <Button layoutX="70.0" layoutY="149.0" mnemonicParsing="false" onAction="#setMinus" prefHeight="26.0" prefWidth="26.0" text="+/-">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button layoutX="123.0" layoutY="149.0" mnemonicParsing="false" onAction="#setPoint" prefHeight="26.0" prefWidth="26.0" text="." />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
