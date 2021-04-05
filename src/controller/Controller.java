@@ -22,7 +22,7 @@ public class Controller {
      */
     @FXML
     public void equals(ActionEvent actionEvent) {
-        if(op.getC()!=null) {
+        if((op.getA()!=null)&&(op.getB()!=null)) {
             op.setA(Double.parseDouble(numbers.getText()));
             op.calculate();
             numbers.setText(op.getC().toString());
